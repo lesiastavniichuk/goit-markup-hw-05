@@ -414,7 +414,6 @@ padding-bottom: 94px;
 
 .header{
   border: 1px solid #ECECEC;
-  bor
 }
 .button-work-list{
   display: flex; 
@@ -441,12 +440,30 @@ border: transparent;
 }
 
 /* --------------------------- OUR WORKS------------------------- */
+.produkt-actions{
+  position: absolute;
+  bottom: 0;
+ 
+ 
+}
+.produkt-thumb{
+  position: relative;
+}
 
+.produkt-text{
+  padding: 63px 24px;
+}
+
+
+
+
+/* --------------------------- OUR WORKS------------------------- */
 .work-list{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 94px;
 }
+
 
 .work-title{
 font-weight: 700;
