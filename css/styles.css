@@ -505,6 +505,7 @@ border: transparent;
 .produkt-thumb{
   position: relative;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .port-cards-text{
@@ -542,6 +543,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 margin-left: 24px;
+margin-bottom: 4px;
 }
 
 .work-text{
@@ -551,6 +553,7 @@ line-height: 1.89;
 letter-spacing: 0.03em;
 color: var(--second-link-color);
 margin-left: 24px;
+margin-bottom: 20px;
 }
 .item{
 border: 1px solid #EEEEEE;
@@ -688,8 +691,8 @@ display: flex;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   visibility: visible;
-  transition: opasity 2500ms cubic-bezier(0.4, 0, 0.2, 1), 
-  visibility 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -714,8 +717,8 @@ display: flex;
   border-radius: 4px;
   opacity: 1;
   transform: scale(1) translate(-50%, -50%);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), 
-  opasity 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close{
   position: absolute;
