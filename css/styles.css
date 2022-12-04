@@ -115,29 +115,6 @@ color: #000000;
   color: var(--primary-link-color);
 }
 
-.site-nav-item{
-  position: relative;
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  padding-top: 24px;
-  padding-bottom: 22px;
-}
-
-
-.site-nav-item::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  border-radius: 2px;
-  background-color: #2196F3;
-}
-
-
 .header-tel-mail{
   font-weight: 500;
   font-size: 14px;
